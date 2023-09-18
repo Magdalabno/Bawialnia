@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+img {
+    width: 100%;
+}
+body {
+    margin: 0 5rem;
+    background-color: #FFF5F5;
+}
+nav {
+    background-color: #FFF5F5;
+    display: flex;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+nav img {
+    max-width: 10rem;
+    height: auto;
+    margin: 0.5rem 1rem 0 1rem;
+}
+.content {
+    background-color: #FFBFB6;
+    height: 300px;
+}
