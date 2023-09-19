@@ -10,21 +10,23 @@ img {
     width: 100%;
 }
 body {
-    margin: 0 5rem;
-    background-color: #FFF5F5;
+    margin: 0;
 }
 nav {
     background-color: #FFF5F5;
     display: flex;
-    border-bottom-left-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    z-index: 10;
+    position: relative;
 }
 nav img {
     max-width: 10rem;
     height: auto;
-    margin: 0.5rem 1rem 0 1rem;
+    margin: 1rem 1rem 1rem 2rem;
 }
 .content {
     background-color: #FFBFB6;
     height: 300px;
+    margin-top: -3rem;
 }
