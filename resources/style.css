@@ -19,6 +19,9 @@ body {
 a {
     text-decoration: none;
 }
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 h1 {
     font-size: 2.5rem;
 }
@@ -60,17 +63,35 @@ nav img {
 .nav-menu a {
     font-size: 2.5rem;
     color: #825F43;
-    font-family: 'Petitcochon';
+    font-family: 'Petitcochon', 'Open Sans', sans-serif;
 }
 #o-nas {
-    background-color: #FFBFB6;
-    height: 300px;
+    background-color: #EF897E;
+    min-height: 400px;
     margin-top: -4rem;
-    text-align: center;
     color:#2e1a1f;
+    display: flex;
 }
-#o-nas h1 {
-    font-family: 'Petitcochon';
-    padding-top: 4rem;
-
+.o-nasimg img {
+    padding-top: 6rem;
+    max-width: 500px;
+    height: auto;
+}
+.o-nasimg {
+    text-align: center;
+    width: 40%;
+}
+.o-nastext {
+    width: 60%;
+}
+.o-nastext p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #FFF5F5;
+    padding: 10rem 4rem 2rem 2rem;
+}
+.name {
+    line-height: 1.2;
+    font-size: 1.8rem;
+    font-family: 'Petitcochon', 'Open Sans', sans-serif;
 }
