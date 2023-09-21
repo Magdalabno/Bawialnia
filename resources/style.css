@@ -18,6 +18,7 @@ body {
 }
 a {
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 p {
     font-family: 'Open Sans', sans-serif;
@@ -31,8 +32,8 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-bottom-left-radius: 2.5rem;
-    border-bottom-right-radius: 2.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     z-index: 10;
     position: relative;
 }
@@ -49,6 +50,9 @@ nav img {
     margin: 1rem;
     padding-left: 2rem;
 }
+nav img:hover {
+    transform: scale(1.2);
+}
 .nav-menu {
     margin: 0 auto;
 }
@@ -60,6 +64,9 @@ nav img {
 .nav-menu ul>li {
     padding: 2rem;
 }
+.nav-menu ul>li:hover {
+    transform: scale(1.2);
+}
 .nav-menu a {
     font-size: 2.5rem;
     color: #825F43;
@@ -69,6 +76,7 @@ nav img {
     background-color: #EF897E;
     min-height: 400px;
     margin-top: -4rem;
+    margin-bottom: -4rem;
     color:#2e1a1f;
     display: flex;
 }
@@ -88,10 +96,35 @@ nav img {
     font-size: 1.4rem;
     line-height: 1.8;
     color: #FFF5F5;
-    padding: 10rem 4rem 2rem 2rem;
+    padding: 8rem 4rem 2rem 2rem;
 }
 .name {
     line-height: 1.2;
     font-size: 1.8rem;
     font-family: 'Petitcochon', 'Open Sans', sans-serif;
+}
+.button {
+    display: inline-block;
+    background-color: #FFB2A6;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 0 0 6rem 2rem;
+    padding: 1rem 0;
+}
+.button a {
+    border-radius: 1rem;
+    color: #FFF5F5;
+    font-size: 1.3rem; 
+    padding: 1rem 3rem;
+}
+.button a:hover {
+    color:#EF897E;
+    background-color: #FFF5F5;
+}
+.o-nas2 {
+    display: flex;
+    background-color: #FFF5F5;
+    min-height: 400px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
