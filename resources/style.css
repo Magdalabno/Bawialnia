@@ -20,7 +20,7 @@ a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
-p {
+p, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 h1 {
@@ -70,7 +70,7 @@ nav img:hover {
     transition: 0.5s ease;
 }
 .nav-menu a {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: #825F43;
     font-family: 'Petitcochon', 'Open Sans', sans-serif;
 }
@@ -81,10 +81,11 @@ nav img:hover {
     margin-bottom: -4rem;
     color:#2e1a1f;
     display: flex;
+    align-items: center;
 }
 .o-nasimg img {
-    padding-top: 6rem;
-    max-width: 500px;
+    padding-top: 2rem;
+    max-width: 450px;
     height: auto;
 }
 .o-nasimg {
@@ -95,22 +96,23 @@ nav img:hover {
     width: 60%;
 }
 .o-nastext p {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     line-height: 1.8;
     color: #825F43;
-    padding: 8rem 4rem 2rem 2rem;
+    padding: 8rem 4rem 2rem 0;
 }
 .name {
+    padding-right: 0.5rem;
     line-height: 1.2;
     font-size: 1.8rem;
     font-family: 'Petitcochon', 'Open Sans', sans-serif;
 }
 .button {
     display: inline-block;
-    background-color: #FFB2A6;
+    background-color: #EF897E;
     text-align: center;
     border-radius: 1rem;
-    margin: 0 0 6rem 2rem;
+    margin: 0 0 6rem 0;
     padding: 1rem 0;
 }
 .button a {
@@ -126,10 +128,12 @@ nav img:hover {
 }
 .o-nas2 {
     display: flex;
+    align-items: center;
     background-color: #FFF5F5;
     min-height: 400px;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-radius: 2rem;
+    z-index: 10;
+    position: relative;
 }
 .o-nastext2 {
     width: 60%;
@@ -144,8 +148,53 @@ nav img:hover {
     height: auto;
 }
 .o-nastext2 p {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     line-height: 1.8;
     color: #825F43;
     padding: 4rem 2rem 2rem 4rem;
+}
+.o-nastext2 span {
+    padding: 0 0.5rem;
+}
+.button2 {
+    display: inline-block;
+    background-color: #FFB2A6;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 0 0 2rem 4rem;
+    padding: 1rem 0;
+}
+.button2 a {
+    border-radius: 1rem;
+    color: #FFF5F5;
+    font-size: 1.3rem; 
+    padding: 1rem 3rem;
+}
+.button2 a:hover {
+    color:#EF897E;
+    background-color: #FFF5F5;
+    transition: all 0.7s ease;
+}
+.kontakt, footer {
+    background-color: #2E8B9D;
+    display: flex;
+    color: #FFF5F5;
+}
+.kontakt {
+    margin-top: -4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.kontakt h3 {
+    text-transform: uppercase;
+}
+.kontakt-adres, .kontakt-godziny, .kontakt-telefon {
+    margin: 6rem 2rem 2rem; 
+    text-align: center;
+}
+.kontakt-logo {
+    font-size: 4rem;
+}
+footer {
+    justify-content: space-between;
 }
