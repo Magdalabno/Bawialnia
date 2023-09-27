@@ -41,9 +41,6 @@ nav {
     width: 25%;
     text-align: center;
 }
-.nav-menu {
-    width: 75%;
-}
 nav img {
     max-width: 12rem;
     height: auto;
@@ -71,7 +68,7 @@ nav img:hover {
 }
 .nav-menu a {
     font-size: 2rem;
-    color: #704E34;
+    color: #5D432E;
     font-family: 'Petitcochon', 'Open Sans', sans-serif;
 }
 #o-nas {
@@ -98,7 +95,7 @@ nav img:hover {
 .o-nastext p {
     font-size: 1.25rem;
     line-height: 1.8;
-    color: #825F43;
+    color: #5D432E;
     padding: 8rem 4rem 2rem 0;
 }
 .name {
@@ -113,13 +110,13 @@ nav img:hover {
     text-align: center;
     border-radius: 1rem;
     margin: 0 0 6rem 0;
-    padding: 1rem 0;
+    padding: 0.8rem 0;
 }
 .button a {
     border-radius: 1rem;
     color: #FFF5F5;
     font-size: 1.3rem; 
-    padding: 1rem 3rem;
+    padding: 0.8rem 2rem;
 }
 .button a:hover {
     color:#EF897E;
@@ -150,7 +147,7 @@ nav img:hover {
 .o-nastext2 p {
     font-size: 1.25rem;
     line-height: 1.8;
-    color: #825F43;
+    color: #5D432E;
     padding: 4rem 2rem 2rem 4rem;
 }
 .o-nastext2 span {
@@ -162,13 +159,13 @@ nav img:hover {
     text-align: center;
     border-radius: 1rem;
     margin: 0 0 2rem 4rem;
-    padding: 1rem 0;
+    padding: 0.8rem 0;
 }
 .button2 a {
     border-radius: 1rem;
     color: #FFF5F5;
     font-size: 1.3rem; 
-    padding: 1rem 3rem;
+    padding: 0.8rem 2rem;
 }
 .button2 a:hover {
     color:#EF897E;
@@ -188,13 +185,25 @@ nav img:hover {
 .kontakt h3 {
     text-transform: uppercase;
 }
+.kontakt p {
+    font-size: 1.25rem;
+}
 .kontakt-adres, .kontakt-godziny, .kontakt-telefon {
-    margin: 6rem 2rem 2rem; 
+    margin: 6rem 4rem 2rem; 
     text-align: center;
+    padding: 3rem 0;
 }
 .kontakt-logo {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 footer {
     justify-content: space-between;
+}
+footer p {
+    font-size: 1.25rem;
+    padding-left: 2rem;
+}
+.social a {
+    padding-right: 2rem;
+    font-size: 2rem;
 }
