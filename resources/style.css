@@ -71,12 +71,14 @@ nav img:hover {
     color: #5D432E;
     font-family: 'Petitcochon', 'Open Sans', sans-serif;
 }
-#o-nas {
+.content {
     background-color: #FFB2A6;
     min-height: 400px;
     margin-top: -4rem;
     margin-bottom: -4rem;
     color:#2e1a1f;
+}
+.o-nas {
     display: flex;
     align-items: center;
 }
