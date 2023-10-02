@@ -209,3 +209,25 @@ footer p {
     padding-right: 2rem;
     font-size: 2rem;
 }
+.cennik {
+    display: flex;
+    background-color: #FFB2A6;
+    justify-content: center;
+}
+.cennik1, cennik2 {
+    
+}
+.cennik1 {
+    width: 45%;
+    background-image: url(./images/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cennik2 {
+    width: 45%;
+    background-image: url(./images/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
