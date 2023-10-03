@@ -74,7 +74,6 @@ nav img:hover {
 .content {
     background-color: #FFB2A6;
     min-height: 400px;
-    margin-bottom: -4rem;
     color:#2e1a1f;
 }
 .o-nas {
@@ -248,4 +247,17 @@ footer p {
 .kontakt2 {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.galeria img {
+    max-width: 600px;
+    height: auto;
+    padding: 2rem;
+    background-color: #FFF5F5;
+    margin: 2rem;
 }
