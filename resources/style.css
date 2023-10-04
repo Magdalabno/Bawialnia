@@ -50,6 +50,7 @@ nav img {
 nav img:hover {
     transform: scale(1.2);
     transition: 0.5s ease;
+    cursor: pointer;
 }
 .nav-menu {
     margin: 0 auto;
@@ -65,6 +66,7 @@ nav img:hover {
 .nav-menu ul>li:hover {
     transform: scale(1.2);
     transition: 0.5s ease;
+    cursor: pointer;
 }
 .nav-menu a {
     font-size: 2rem;
@@ -96,7 +98,7 @@ nav img:hover {
     font-size: 1.25rem;
     line-height: 1.8;
     color: #5D432E;
-    padding: 8rem 4rem 2rem 0;
+    padding: 4rem 4rem 2rem 0;
 }
 .name {
     padding-right: 0.5rem;
@@ -178,7 +180,7 @@ nav img:hover {
     color: #FFF5F5;
 }
 .kontakt {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 .kontakt h3 {
@@ -208,41 +210,32 @@ footer p {
 }
 .cennik {
     display: flex;
-    background-color: #FFB2A6;
-    justify-content: center;
-    height: 730px;
-}
-.cennik1 {
-    width: 50%;
-    background-image: url(./images/6.png);
-}
-.cennik2 {
-    width: 50%;
-    background-image: url(./images/5.png);
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
 }
 .cennik1, .cennik2 {
-    background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: top;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: left;
+    background-color: #FFF5F5;
+    border-radius: 2rem;
 }
-.cennik1 h3, .cennik2 h3 {
-    font-family: 'PetitCochon';
-    font-size: 1.8rem;
-    margin: 1rem;
+.cennik1 thead>tr>th, .cennik2 thead>tr>th {
+    padding: 1.5rem 1rem 1rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color:#5D432E;
     letter-spacing: 2px;
-    color: #1E6674;
 }
-.cennik1 p, .cennik2 p {
-    font-size: 1.2rem;
-    color: #1E6674;
+.cennik1 tbody>tr>td, .cennik2 tbody>tr>td {
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem 14rem 1rem 1rem;
 }
-.bottom {
-    margin-bottom: 10rem;
+.color {
+    background-color: #AEE1E1;
+}
+.colorborder {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #AEE1E1;
 }
 .kontakt2 {
     border-top-left-radius: 2rem;
@@ -260,4 +253,56 @@ footer p {
     padding: 2rem;
     background-color: #FFF5F5;
     margin: 2rem;
+}
+.urodziny {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+}
+.urodziny1, .urodziny2 {
+    text-align: left;
+    background-color: #FFF5F5;
+    border-radius: 2rem;
+}
+
+.headline {
+    background-color: #FFB2A6;
+    text-align: center;
+}
+.headline h2 {
+    color: #2e1a1f;
+    font-family: 'Open Sans';
+    font-size: 2rem;
+    margin: 0;
+    padding: 3rem;
+}
+.urodziny1 thead>tr>th, .urodziny2 thead>tr>th {
+    padding: 1.5rem 1rem 1rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color:#5D432E;
+    letter-spacing: 2px;
+}
+.urodziny1 tbody>tr>td, .urodziny2 tbody>tr>td {
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem 10rem 1rem 1rem;
+}
+.color {
+    background-color: #AEE1E1;
+}
+.colorborder {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #AEE1E1;
+}
+.kontaktstrona {
+    display: flex;
+}
+.map {
+    padding: 0 2rem 4rem 4rem;
+}
+.kontaktstrona2 p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #5D432E;
 }
