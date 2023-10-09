@@ -211,7 +211,7 @@ footer p {
 .cennik {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 4rem;
+    padding-bottom: 7rem;
 }
 .cennik1, .cennik2 {
     text-align: left;
@@ -219,7 +219,7 @@ footer p {
     border-radius: 2rem;
 }
 .cennik1 thead>tr>th, .cennik2 thead>tr>th {
-    padding: 1.5rem 1rem 1rem 1rem;
+    padding: 1.5rem 1rem 1.5rem 1.5rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     color:#5D432E;
@@ -227,7 +227,7 @@ footer p {
 }
 .cennik1 tbody>tr>td, .cennik2 tbody>tr>td {
     font-family: 'Open Sans', sans-serif;
-    padding: 1rem 14rem 1rem 1rem;
+    padding: 1.5rem 10rem 1.5rem 1.5rem;
 }
 .color {
     background-color: #AEE1E1;
@@ -245,7 +245,7 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
 }
 .galeria img {
     max-width: 600px;
@@ -277,7 +277,7 @@ footer p {
     padding: 3rem;
 }
 .urodziny1 thead>tr>th, .urodziny2 thead>tr>th {
-    padding: 1.5rem 1rem 1rem 1rem;
+    padding: 1.5rem 1rem 1.5rem 1.5rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     color:#5D432E;
@@ -285,7 +285,7 @@ footer p {
 }
 .urodziny1 tbody>tr>td, .urodziny2 tbody>tr>td {
     font-family: 'Open Sans', sans-serif;
-    padding: 1rem 10rem 1rem 1rem;
+    padding: 1.5rem 10rem 1.5rem 1.5rem;
 }
 .color {
     background-color: #AEE1E1;
