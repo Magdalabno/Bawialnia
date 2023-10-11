@@ -173,6 +173,7 @@ nav img:hover {
     color:#EF897E;
     background-color: #FFF5F5;
     transition: all 0.7s ease;
+    border: 1px solid #EF897E;
 }
 .kontakt, footer {
     background-color: #2E8B9D;
