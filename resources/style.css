@@ -228,7 +228,7 @@ footer p {
 }
 .cennik1 tbody>tr>td, .cennik2 tbody>tr>td {
     font-family: 'Open Sans', sans-serif;
-    padding: 1.5rem 10rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 .color {
     background-color: #AEE1E1;
@@ -330,6 +330,9 @@ footer p {
     color: #5D432E;
     padding: 0 4rem 2rem 0;
 }
-table {
-    width: 100%;
+.urodziny1 table, .urodziny2 table {
+    width: 45vw;
+}
+.cennik1 table, .cennik2 table {
+    width: 45vw;
 }
