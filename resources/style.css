@@ -286,7 +286,7 @@ footer p {
 }
 .urodziny1 tbody>tr>td, .urodziny2 tbody>tr>td {
     font-family: 'Open Sans', sans-serif;
-    padding: 1.5rem 10rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 .color {
     background-color: #AEE1E1;
@@ -329,4 +329,7 @@ footer p {
     line-height: 1.8;
     color: #5D432E;
     padding: 0 4rem 2rem 0;
+}
+table {
+    width: 100%;
 }
