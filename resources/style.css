@@ -332,7 +332,27 @@ footer p {
 }
 .urodziny1 table, .urodziny2 table {
     width: 45vw;
+    max-width: 800px;
 }
 .cennik1 table, .cennik2 table {
+    max-width: 800px;
     width: 45vw;
 }
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1000px) {
+    .nav-menu a {
+        font-size: 1.5rem;
+    }
+    .o-nastext p, .o-nastext2 p {
+        font-size: 0.8rem;
+    }
+    .button a, .button2 a {
+        font-size: 1rem;
+    }
+    .name {
+        font-size: 1.2rem;
+    }
+}
+    
