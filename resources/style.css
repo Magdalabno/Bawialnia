@@ -181,7 +181,7 @@ nav img:hover {
     color: #FFF5F5;
 }
 .kontakt {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .kontakt h3 {
@@ -193,7 +193,7 @@ nav img:hover {
 .kontakt-adres, .kontakt-godziny, .kontakt-telefon {
     margin: 2rem 4rem 2rem; 
     text-align: center;
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 .kontakt-logo {
     font-size: 2rem;
@@ -345,14 +345,17 @@ footer p {
     .nav-menu a {
         font-size: 1.5rem;
     }
-    .o-nastext p, .o-nastext2 p {
-        font-size: 0.8rem;
+    .o-nastext p, .o-nastext2 p, .kontakt p, footer p, .onas p {
+        font-size: 1rem;
     }
     .button a, .button2 a {
         font-size: 1rem;
     }
     .name {
         font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
     }
 }
     
