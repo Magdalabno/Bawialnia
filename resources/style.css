@@ -193,7 +193,6 @@ nav img:hover {
 .kontakt-adres, .kontakt-godziny, .kontakt-telefon {
     margin: 2rem 4rem 2rem; 
     text-align: center;
-    padding: 1.5rem 0;
 }
 .kontakt-logo {
     font-size: 2rem;
@@ -356,6 +355,12 @@ footer p {
     }
     h2 {
         font-size: 1.5rem;
+    }
+    nav img {
+        max-width: 10rem;
+    }
+    .laptop {
+        display: none;
     }
 }
     
