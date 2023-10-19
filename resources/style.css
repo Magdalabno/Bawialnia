@@ -77,6 +77,7 @@ nav img:hover {
     background-color: #FFB2A6;
     min-height: 400px;
     color:#2e1a1f;
+    padding: 0 3rem;
 }
 .o-nas {
     display: flex;
@@ -84,21 +85,17 @@ nav img:hover {
 }
 .o-nasimg img {
     padding-top: 2rem;
-    max-width: 450px;
+    min-width: 320px;
     height: auto;
 }
 .o-nasimg {
     text-align: center;
-    width: 40%;
-}
-.o-nastext {
-    width: 60%;
 }
 .o-nastext p {
     font-size: 1.25rem;
     line-height: 1.8;
     color: #5D432E;
-    padding: 4rem 4rem 2rem 0;
+    padding: 4rem 2rem 2rem 2rem;
 }
 .name {
     padding-right: 0.5rem;
@@ -111,7 +108,7 @@ nav img:hover {
     background-color: #EF897E;
     text-align: center;
     border-radius: 1rem;
-    margin: 0 0 6rem 0;
+    margin: 0 0 2rem 2rem;
     padding: 0.8rem 0;
 }
 .button a {
@@ -134,33 +131,34 @@ nav img:hover {
     z-index: 10;
     position: relative;
 }
-.o-nastext2 {
-    width: 60%;
-}
 .o-nasimg2 {
-    width: 40%;
     text-align: center
 }
 .o-nasimg2 img {
-    
-    max-width: 500px;
+    min-width: 320px;
     height: auto;
 }
 .o-nastext2 p {
     font-size: 1.25rem;
     line-height: 1.8;
     color: #5D432E;
-    padding: 4rem 2rem 2rem 4rem;
+    padding: 4rem 2rem 2rem 2rem;
 }
 .o-nastext2 span {
     padding: 0 0.5rem;
+}
+.o-nas.content.mobile {
+    display: block;
+}
+.o-nas2.content.mobile {
+    display: block;
 }
 .button2 {
     display: inline-block;
     background-color: #FFB2A6;
     text-align: center;
     border-radius: 1rem;
-    margin: 0 0 2rem 4rem;
+    margin: 0 0 2rem 2rem;
     padding: 0.8rem 0;
 }
 .button2 a {
@@ -359,8 +357,20 @@ footer p {
     nav img {
         max-width: 10rem;
     }
+    
+}
+@media only screen and (max-width: 768px) {
     .laptop {
+        display: none;
+    } 
+}
+@media only screen and (min-width: 769px) {
+    .o-nas.content.mobile, .o-nas2.content.mobile {
         display: none;
     }
 }
-    
+@media only screen and (max-width: 550px) {
+    .content {
+        padding: 0;
+    }
+}
