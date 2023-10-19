@@ -310,22 +310,24 @@ footer p {
     align-items: flex-start;
 }
 .onasimg img {
-    padding: 0 2rem 2rem 2rem;
-    max-width: 450px;
+    padding: 0 2rem 2rem 0;
+    min-width: 350px;
     height: auto;
 }
 .onasimg {
     text-align: center;
-    width: 45%;
-}
-.onastext {
-    width: 55%;
 }
 .onastext p {
     font-size: 1.25rem;
     line-height: 1.8;
     color: #5D432E;
-    padding: 0 4rem 2rem 0;
+    padding: 0 2rem 2rem 2rem;
+}
+.onas.content.mobile {
+    display: block;
+}
+.onas.content.mobile > .onastext p {
+    padding: 3rem 2rem;
 }
 .urodziny1 table, .urodziny2 table {
     width: 45vw;
@@ -365,7 +367,7 @@ footer p {
     } 
 }
 @media only screen and (min-width: 769px) {
-    .o-nas.content.mobile, .o-nas2.content.mobile {
+    .o-nas.content.mobile, .o-nas2.content.mobile, .onas.content.mobile {
         display: none;
     }
 }
