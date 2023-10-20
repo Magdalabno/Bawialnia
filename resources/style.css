@@ -85,14 +85,15 @@ nav img:hover {
 }
 .o-nasimg img {
     padding-top: 2rem;
-    min-width: 320px;
+    max-width: 500px;
+    min-width: 350px;
     height: auto;
 }
 .o-nasimg {
     text-align: center;
 }
 .o-nastext p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: 1.8;
     color: #5D432E;
     padding: 4rem 2rem 2rem 2rem;
@@ -135,11 +136,12 @@ nav img:hover {
     text-align: center
 }
 .o-nasimg2 img {
-    min-width: 320px;
+    max-width: 500px;
+    min-width: 350px;
     height: auto;
 }
 .o-nastext2 p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: 1.8;
     color: #5D432E;
     padding: 4rem 2rem 2rem 2rem;
@@ -354,7 +356,7 @@ footer p {
     .name {
         font-size: 1.2rem;
     }
-    h2 {
+    .headline h2 {
         font-size: 1.5rem;
     }
     nav img {
@@ -369,6 +371,28 @@ footer p {
     .o-nasimg, .o-nasimg2 {
         display: none;
     }
+    .urodziny {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cennik {
+        flex-direction: column;
+        align-items: center;
+    }
+    .urodziny1, .urodziny2 {
+        width: 100%;
+        margin: 2rem 0 2rem 0;
+    }
+    .cennik1, .cennik2 {
+        width: 100%;
+        margin: 2rem 0 2rem 0;
+    }
+    .urodziny1 table, .urodziny2 table {
+        width: 100%;
+    }
+    .cennik1 table, .cennik2 table {
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 769px) {
     .o-nas.content.mobile, .o-nas2.content.mobile, .onas.content.mobile {
@@ -377,7 +401,7 @@ footer p {
 }
 @media only screen and (max-width: 550px) {
     .content {
-        padding: 0;
+        padding: 0 2rem;
     }
     .social a {
         font-size: 1.2rem;
