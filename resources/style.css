@@ -197,6 +197,7 @@ nav img:hover {
 }
 footer {
     justify-content: space-between;
+    align-items: center;
 }
 footer p {
     font-size: 1.25rem;
@@ -363,8 +364,11 @@ footer p {
 }
 @media only screen and (max-width: 768px) {
     .laptop {
-        display: none;
+       display: none;
     } 
+    .o-nasimg, .o-nasimg2 {
+        display: none;
+    }
 }
 @media only screen and (min-width: 769px) {
     .o-nas.content.mobile, .o-nas2.content.mobile, .onas.content.mobile {
@@ -374,5 +378,11 @@ footer p {
 @media only screen and (max-width: 550px) {
     .content {
         padding: 0;
+    }
+    .social a {
+        font-size: 1.2rem;
+    }
+    footer p {
+        font-size: 0.8rem;
     }
 }
