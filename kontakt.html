@@ -18,8 +18,9 @@
             <div class="nav-logo">
                 <a href="index.html"><img src="resources/images/Logo2.jpg" alt="Logo"></a>
             </div>
-            <div class="nav-menu laptop">
-                <ul>
+            <div>
+                <div class="icon"><i class="icon-menu"></i></div>
+                <ul class="nav-menu">
                     <li><a href="onas.html">O nas</a></li>
                     <li><a href="cennik.html">Cennik</a></li>
                     <li><a href="urodziny.html">Urodziny</a></li>
@@ -87,5 +88,14 @@
                 </div>
             </footer>
         </section>
+
+        <script>
+            const mobileNav = document.querySelector('.nav-menu');
+            const burgerBtn = document.querySelector('.icon-menu');
+    
+            burgerBtn.addEventListener('click', function(){
+                mobileNav.classList.toggle('active');
+            })
+        </script>
     </body>
 </html>
