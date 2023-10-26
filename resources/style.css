@@ -39,11 +39,10 @@ nav {
     position: relative;
 }
 .nav-logo {
-   
     text-align: center;
 }
-nav img {
-    max-width: 12rem;
+.nav-logo img {
+    max-width: 9rem;
     height: auto;
     margin: 1rem;
     padding-left: 2rem;
@@ -70,7 +69,7 @@ nav img:hover {
     cursor: pointer;
 }
 .nav-menu a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #5D432E;
     font-family: 'Petitcochon', 'Open Sans', sans-serif;
 }
@@ -94,7 +93,7 @@ nav img:hover {
     text-align: center;
 }
 .o-nastext p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.8;
     color: #5D432E;
     padding: 4rem 2rem 2rem 2rem;
@@ -102,7 +101,7 @@ nav img:hover {
 .name {
     padding-right: 0.5rem;
     line-height: 1.2;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: 'Petitcochon', 'Open Sans', sans-serif;
 }
 .button {
@@ -116,7 +115,7 @@ nav img:hover {
 .button a {
     border-radius: 1rem;
     color: #FFF5F5;
-    font-size: 1.3rem; 
+    font-size: 1.2rem; 
     padding: 0.8rem 2rem;
 }
 .button a:hover {
@@ -142,7 +141,7 @@ nav img:hover {
     height: auto;
 }
 .o-nastext2 p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.8;
     color: #5D432E;
     padding: 4rem 2rem 2rem 2rem;
@@ -167,7 +166,7 @@ nav img:hover {
 .button2 a {
     border-radius: 1rem;
     color: #FFF5F5;
-    font-size: 1.3rem; 
+    font-size: 1.2rem; 
     padding: 0.8rem 2rem;
 }
 .button2 a:hover {
@@ -189,7 +188,7 @@ nav img:hover {
     text-transform: uppercase;
 }
 .kontakt p {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 .kontakt-adres, .kontakt-godziny, .kontakt-telefon {
     margin: 2rem 4rem 2rem; 
@@ -203,7 +202,7 @@ footer {
     align-items: center;
 }
 footer p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding-left: 2rem;
 }
 .social a {
@@ -223,7 +222,7 @@ footer p {
 .cennik1 thead>tr>th, .cennik2 thead>tr>th {
     padding: 1.5rem 1rem 1.5rem 1.5rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:#5D432E;
     letter-spacing: 2px;
 }
@@ -274,14 +273,14 @@ footer p {
 .headline h2 {
     color: #2e1a1f;
     font-family: 'Open Sans';
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0;
     padding: 3rem;
 }
 .urodziny1 thead>tr>th, .urodziny2 thead>tr>th {
     padding: 1.5rem 1rem 1.5rem 1.5rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:#5D432E;
     letter-spacing: 2px;
 }
@@ -309,7 +308,7 @@ footer p {
     padding-left: 1rem;
 }
 .kontaktstrona2 p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.8;
     color: #5D432E;
 }
@@ -328,7 +327,7 @@ footer p {
     text-align: center;
 }
 .onastext p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.8;
     color: #5D432E;
     padding: 0 2rem 2rem 2rem;
@@ -364,7 +363,7 @@ footer p {
 
 @media only screen and (max-width: 1000px) {
     .nav-menu a {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .o-nastext p, .o-nastext2 p, .kontakt p, footer p, .onas p {
         font-size: 1rem;
@@ -408,7 +407,7 @@ footer p {
         transform: translate(0%);
     }
     .nav-menu li {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .o-nasimg, .o-nasimg2, .onasimg {
