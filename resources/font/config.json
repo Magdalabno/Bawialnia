@@ -47,6 +47,12 @@
       "css": "map-o",
       "code": 62072,
       "src": "fontawesome"
+    },
+    {
+      "uid": "jh3jpcb1t1bcm80gidkadilh080aq79h",
+      "css": "menu",
+      "code": 59397,
+      "src": "typicons"
     }
   ]
 }

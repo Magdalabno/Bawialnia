@@ -298,10 +298,14 @@ footer p {
 }
 .kontaktstrona {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .map {
     padding: 2rem;
+}
+.kontaktstrona2 {
+    padding-left: 1rem;
 }
 .kontaktstrona2 p {
     font-size: 1.25rem;
@@ -312,6 +316,7 @@ footer p {
     background-color: #FFB2A6;
     display: flex;
     align-items: flex-start;
+    padding-bottom: 3rem;
 }
 .onasimg img {
     padding: 0 2rem 2rem 0;
@@ -327,12 +332,6 @@ footer p {
     color: #5D432E;
     padding: 0 2rem 2rem 2rem;
 }
-.onas.content.mobile {
-    display: block;
-}
-.onas.content.mobile > .onastext p {
-    padding: 3rem 2rem;
-}
 .urodziny1 table, .urodziny2 table {
     width: 45vw;
     max-width: 800px;
@@ -341,7 +340,18 @@ footer p {
     max-width: 800px;
     width: 45vw;
 }
-
+.icon-menu {
+    color: #2e1a1f;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+.map-big {
+    width: 500px;
+    height: 400px;
+    border: 0;
+    padding: 1rem;
+}
 /* Responsiveness */
 
 @media only screen and (max-width: 1000px) {
@@ -370,10 +380,16 @@ footer p {
     
 }
 @media only screen and (max-width: 768px) {
-    .laptop {
-       display: none;
+    .nav-menu ul {
+       flex-direction: column;
     } 
-    .o-nasimg, .o-nasimg2 {
+    .nav-menu ul>li {
+        padding: 1rem;
+    }
+    .nav-logo {
+        display: none;
+    }
+    .o-nasimg, .o-nasimg2, .onasimg {
         display: none;
     }
     .urodziny {
@@ -399,6 +415,11 @@ footer p {
         width: 100%;
     }
 }
+@media only screen and (min-width: 769px) {
+    .icon-menu {
+        display: none;
+    }
+}
 @media only screen and (max-width: 550px) {
     .content {
         padding: 0 2rem;
@@ -408,5 +429,11 @@ footer p {
     }
     footer p {
         font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .map-big {
+        width: 300px;
+        height: 280px;
     }
 }
